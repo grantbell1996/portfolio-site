@@ -4,6 +4,8 @@ import { Route, Routes, BrowserRouter } from "react-router-dom";
 import { NavBar } from "./components/nav/Navbar";
 import HomePage from "./components/home-page/HomePage";
 import { Resume } from "./components/resume/Resume";
+import Portfolio from "./components/portfolio/Portfolio";
+import Links from "./components/links/Links";
 
 export const App = () => {
   return (
@@ -18,7 +20,9 @@ export const App = () => {
 
           <Route path="resume" element={<Resume />}></Route>
 
-          <Route path="portfolio" element={<Resume />}></Route>
+          <Route path="portfolio" element={<Portfolio />}></Route>
+
+          <Route path="links" element={<Links />}></Route>
 
         </Routes>
       </BrowserRouter>
