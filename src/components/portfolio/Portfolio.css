@@ -1,0 +1,42 @@
+.portfolio_link {
+    display: inline-block;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 2%;
+    padding: 1%;
+    font-weight: bold;
+    border: 1px solid rgb(0, 0, 0);
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 0px 0px 3px rgb(181, 181, 181);
+    border-radius: 3px;
+    width: 150px;
+    height: 210px;
+    transition: transform .2s;
+    text-decoration: none;
+}
+
+.portfolio_link:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgb(181, 181, 181);
+}
+
+.portfolio_desc {
+
+}
+
+.portfolio_body {
+    padding: 0;
+}
+
+
+
+.portfolio_cont {
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-around;
+    grid-template-columns: repeat(6, minmax(50px, 1fr));
+    min-width: 125px;
+    row-gap: 50px;
+    column-gap: 50px;
+}

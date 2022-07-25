@@ -5,7 +5,6 @@ import resume from "../files/Resume.pdf"
 export const Resume = () => {
   return (
     <>
-    <a className="resume_link" href={resume}>Download my resume here</a>
       <div className="resume_body">
         <div className="resume_block">
           <div className="resume_header">Technical Experience</div>
@@ -82,12 +81,15 @@ export const Resume = () => {
             </ul>
           </div>
         </div>
-        <div className="resume_block">
+        <div className="edu_panel"> 
+        <div className="edu_block">
           <div className="resume_header">Education</div>
           <ul> 
           <li className="edu_title">Nashville Software School</li>
           <li className="edu_title">Blackman High School</li>
           </ul>
+        </div>
+        <a className="resume_link" href={resume}>Download my resume here!</a>
         </div>
       </div>
       <div className="resume_header">Certificates</div>

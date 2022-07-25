@@ -1,5 +1,6 @@
 .resume_body {
     display: flex;
+    justify-content: space-around;
     padding: 3%;
 }
 
@@ -11,6 +12,9 @@
 .resume_sub_header {
     font-size: 150%;
     font-weight: bold;
+    padding-bottom: 6%;
+    padding-top: 3%;
+    border-bottom: 1px solid rgb(193, 193, 193);
 }
 
 .resume_header {
@@ -20,13 +24,15 @@
 
 .resume_text_body {
     padding: 3%;
-    border: 1px  rgb(128, 128, 128);
+    border: 1px  rgb(177, 175, 175);
 }
 
 .resume_link {
     display: flex;
+    justify-content: center;
     padding: 1%;
-    margin-left: 5%;
+    margin-top: 10%;
+    margin-left: 20%;
     font-weight: bold;
     row-gap: 10px;
     border: 1px solid rgb(0, 0, 0);
@@ -42,11 +48,13 @@
     transform: scale(1.2)
 }
 
-
-
-
-
-
+.edu_block {
+    padding: 1.5%;
+    margin-left: 5%;
+    height: fit-content;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+}
 
 .edu_title {
     font-size: 150%;

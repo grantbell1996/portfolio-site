@@ -3,6 +3,10 @@
     padding: 10%;
 }
 
+.container_element {
+    max-height: fit-content;
+}
+
 .title {
     padding: 1%;
     font-size: 150%;
@@ -39,4 +43,28 @@
     margin: 3%;
     background-color: rgb(255, 255, 255);
     /* border: 1px solid black; */
+}
+
+.links {
+    display: flex;
+    margin-bottom: 2%;
+    margin-left: 1%;
+}
+
+.link_item {
+    display: inline-block;
+    justify-items: center;
+    text-decoration: none;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 1%;
+    margin: 1%;
+    border-radius: 4px;
+    transition: box-shadow 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+    position: relative; 
+}
+
+
+.link_item:hover {
+    transform: scale(1.1);
 }
