@@ -17,9 +17,9 @@ export const NavBar = () => {
         <Link className="navbar_link" to="/portfolio">Portfolio</Link>
       </div>
 
-      <div className="navbar__item active">
-        <Link className="navbar_link" to="/links">My Links</Link>
-      </div>
+      {/* <div className="navbar__item active">
+        <Link className={`navbar_link active`} to="/links">My Links</Link>
+      </div> */}
     </ul>
   );
 };
