@@ -9,7 +9,7 @@
 
 .title {
     padding: 1%;
-    font-size: 150%;
+    font-size: 180%;
 }
 
 /* .bio {
@@ -19,7 +19,8 @@
 
 .name {
     padding: 1%;
-    font-size: 250%;
+    padding-bottom: ;
+    font-size: 290%;
 }
 
 .profile {
@@ -43,6 +44,22 @@
     margin: 3%;
     background-color: rgb(255, 255, 255);
     /* border: 1px solid black; */
+}
+
+.container_header {
+    display: flex;
+    align-items: center;
+}
+
+.languages {
+display: flex;
+padding: 1%;
+padding-bottom: 4%;
+font-size: 130%;
+}
+
+.li {
+    margin-left: 2.5%;
 }
 
 .links {

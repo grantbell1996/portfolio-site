@@ -1,12 +1,17 @@
 .resume_body {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 3%;
 }
 
 .resume_block {
     padding: 3%;
     max-width: 25%;
+}
+
+.work_body {
+    display: flex;
+    border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 .resume_sub_header {

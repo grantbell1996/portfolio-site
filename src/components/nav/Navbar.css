@@ -78,9 +78,6 @@ textarea {
         text-decoration: none;
     }
 
-.navbar__item:visited {
-    text-decoration: none;
-}
 
     .navbar__item_side {
         display: flex;
